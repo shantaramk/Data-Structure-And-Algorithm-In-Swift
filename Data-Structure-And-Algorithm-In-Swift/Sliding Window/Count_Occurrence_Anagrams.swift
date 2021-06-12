@@ -3,6 +3,7 @@
 import Foundation
 
 /// find count occurrences of anagram
+///https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
 
 func occurrencesCount(for text: String, pattern: String) -> Int {
     var textDict = [Character: Int]()
